@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color:#C9C9C9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-top: 45px;
+  padding-right: 8%;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+.span1 {
+  color: #f9004d;
+}
+
+.container {
+  margin: 40px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:  #f9004d;
+  /* color: #f9004d; */
+  /* background:  #f9004d;; */
+  font-size: 17px;
+  /* font-weight: 900; */
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 30px;
+}
+
+nav ul li a:hover {
+  color: white;
+  transition: 0.3s;
+  /* transform: translate(-10px); */
+  /* background: transparent; */
+}
+
+.temp {
+  margin: 9px;
+  font-size: 75px;
+  color: black;
+}
+
+
+
+.toggle-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+
+}
+.fa-sun{
+  color: #b7a045;
+}
+.fa-moon{
+  color: #b7a045;
+}
+.ball{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.night-mode {
+  transform: translateX(100%);
+}
+
+
+.city {
+  color: black;
+  font-size: 40px;
+}
+
+.temp_desc {
+  font-size: 50px;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.desc {
+  font-size: 17px;
+  font-weight:400;
+  padding: 13px;
+  color: black;
+}
+
+.collection {
+  height: 50px;
+  width: 700px;
+  padding: 10px 25px;
+  /* margin: 10px 40px; */
+  color: black;
+  display: flex;
+  font-size: 17px;
+  font-weight:400;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.date {
+  color:black;
+
+}
+.icon {
+  padding: 6px 0px 0px 0px;
+}
+
+.celcius {
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  
+}
+/* .change_farenheit{
+  font-size: 30px;
+  color: black;
+  
+} */
+
+.farenheit{
+  font-size: 30px;
+  cursor: pointer;
+  color:#70757a;
+  
+}
+.line{
+  border-left: 2px solid #70757a;
+  margin: 0 4px;
+  height: 0.5em;
+}
+
+.search{
+  border: none;
+  background:none;
+  outline: none;  
+}
+.fa-magnifying-glass{
+  color: #f9004d;
+  height: 10px;
+  width: 10px;
+  padding-right:15px;
+  border-radius: 50%;
+  text-align: center;
+
+  
+}
+button{
+border: none;
+outline: none;
+background: none;
+
+}
+.search_box{
+ height: 30px;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: none;
+  border: 2px solid  #f9004d;
+
+}

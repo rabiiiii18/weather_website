@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/f0315fce63.js" crossorigin="anonymous"></script>
+
+  <script src="weatherAPI.js" defer></script>
+  <script src="tooglebutton.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="all">
+    <nav>
+      <h2 class="logo">Wea<span class="span1">ther</span></h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        
+
+        <li>
+          <div class="toggle-container">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+            <div class="ball"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="m_container">
+        <div class="div1">
+          <div class="city_date">
+            <div class="city"></div>
+            <div class="date"></div>
+          </div>
+          <div class="temp_desc">
+            <div class="icons">
+              <img src="" alt="" class="icon" />
+            </div>
+            <span class="temp"></span>
+            <span class="celcius">&deg;C</span>
+            <span class="line"></span>
+            <span class="farenheit">&deg;F</span>
+            <div class="desc"></div>
+          </div>
+
+          <div class="collection">
+            <div class="pressure">Pressure:</div>
+            <div class="humidity">Humidity:</div>
+            <div class="wind">Wind Speed:</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
